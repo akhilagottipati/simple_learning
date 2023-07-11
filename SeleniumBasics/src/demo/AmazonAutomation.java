@@ -44,8 +44,8 @@ import org.openqa.selenium.interactions.Actions;
 	       }
 
 	       // Click on 'Buy Now' button
-	       //WebElement buyNowButton = driver.findElement(By.id("buy-now-button"));
-	       //buyNowButton.click();
+	       WebElement buyNowButton = driver.findElement(By.id("buy-now-button"));
+	       buyNowButton.click();
 
 	       // Verify if the 'Sign in' text is present on the page
 	       boolean signInTextPresent = driver.getPageSource().contains("Sign in");
